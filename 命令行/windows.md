@@ -1,8 +1,32 @@
-1. 获取帮助
+## cmd与power shell
 
-```cmd
-命令 /？
-```
+cmd 是 power shell的子集
+
+
+
+## 说明
+
+* 不区分大小写
+* 上下键可查看历史命令
+* tab键可自动补全
+* 获取帮助命令 `/？`
+
+
+
+## 与命令有关的操作符
+
+> 多命令，重定向，管道
+
+1. `&`顺序执行多条命令，不管命命令是否执行成功
+2. `&&`如果前面的命令执行错误则不执行后面的命令
+3. `||`顺序执行多条命令，碰到执行正确的命令后则不执行后面的命令
+4. `>`输出重定向
+5. `>>`追加重定向
+6. `<`输入重定向
+
+## 常用命令
+
+1. echo显示输出 pause暂停 cls清屏 exit退出
 
 2. 进入磁盘
 
@@ -35,57 +59,37 @@ rd 目录名（文件夹）#删除目录
 del 文件名 #这个是专门删除文件的，不能删除文件夹
 ```
 
-1. 查看文件内容
+6. 查看文件内容
 
 ```cmd
 type 文件名
 ```
 
-
-
-1. 颜色
-
-```cmd
-color 数字
-```
-
-2. 清空屏幕
-
-```cmd
-cls
-```
-
-3. IP
-
-```cmd
-ipconfig
-ipconfig /all
-```
-
-4. mac地址
-
-```cmd
-getmac /v
-```
-
-5. copy
-
-```cmd
-copy /b a.xxx [+b.xxx [+...]] c.xxx #[]代表可选意思是将a.xxx和b.xxx合并为c.xxx。
-```
-
-
-
-5. 查看目录所有内容
+7. 查看目录所有内容
 
 ```cmd
 dir #类似于Linux下的ls
 tree
 ```
 
-6. fun
+8. IP信息
 
 ```cmd
-telnet telehack.com
+ipconfig
+ipconfig /all
+```
+
+9. mac地址
+
+```cmd
+getmac /v
+```
+
+10. 网络连接测试ping
+
+11.copy
+
+```cmd
+copy /b a.xxx [+b.xxx [+...]] c.xxx #[]代表可选意思是将a.xxx和b.xxx合并为c.xxx。
 ```
 
