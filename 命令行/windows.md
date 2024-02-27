@@ -1,10 +1,10 @@
-## cmd与power shell
+## 1.cmd与power shell
 
 cmd 是 power shell的子集
 
 
 
-## 说明
+## 2. 说明
 
 * 不区分大小写
 * 上下键可查看历史命令
@@ -13,7 +13,7 @@ cmd 是 power shell的子集
 
 
 
-## 常用命令
+## 3.常用命令
 
 1. echo显示输出 pause暂停 cls清屏 exit退出
 
@@ -76,7 +76,7 @@ getmac /v
 
 10. 网络连接测试ping
 
-11.copy
+11. copy
 
 ```cmd
 copy /b a.xxx [+b.xxx [+...]] c.xxx #[]代表可选意思是将a.xxx和b.xxx合并为c.xxx。
